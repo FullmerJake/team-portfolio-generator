@@ -18,6 +18,7 @@
 
   ## Usage
   For simple instructions on how to use application, see above. Included here is a walkthrough on how to use the application. 
+  https://drive.google.com/file/d/1Ie_nmOfBA45ouSqdqoY4do0NX4oYT1ba/view?usp=sharing
 
   ## License
   This project uses the MIT license. Check out <a href="https://choosealicense.com">this</a> website for more information on this and other licenses. 
