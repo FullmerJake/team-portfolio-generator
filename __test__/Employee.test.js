@@ -16,8 +16,8 @@ test('getName() returns a name', () => {
 test('getId() returns an id', () => {
 
     const testId = '10';
-    const employee = new Employee(testId);
-    expect(employee.getId()).toBe('Jack', testId);
+    const employee = new Employee('Jack', testId, 'email');
+    expect(employee.getId()).toBe(testId);
 
 });
 
@@ -31,8 +31,8 @@ test('getEmail() returns an email', () => {
 
 test('getRole() returns the employee role', () => {
 
-    const testRole = 'Janitor';
+    const testRole = 'Employee';
     const employee = new Employee('Jack', 'E3', 'email@email.com');
-    expect(employee.getName()).toBe(testName);
+    expect(employee.getRole()).toBe(testRole);
 
 });
