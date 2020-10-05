@@ -2,6 +2,9 @@
 const { exportAllDeclaration } = require('@babel/types');
 const Intern = require('../lib/Intern');
 
+
+// All the tests ran to make sure Intern Class works. First parameter of test displays what each test does. 
+
 test('Can set school via constructor', () => {
     const testSchool = 'UVU';
     const employee = new Intern('Jack', 'E3', 'email@email', testSchool);

@@ -2,6 +2,9 @@ const { exportAllDeclaration } = require('@babel/types');
 const { TestResult } = require('@jest/types');
 const Engineer = require('../lib/Engineer');
 
+// All the tests ran to make sure Engineer Class works. First parameter of test displays what each test does. 
+
+
 test('Sets Github account via constructor', () => {
     const testGithub = 'GitUser';
     const employee = new Engineer('Jack', 'E3', 'email', testGithub);

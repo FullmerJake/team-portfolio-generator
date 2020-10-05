@@ -1,5 +1,7 @@
 const Employee = require('../lib/Employee');
 
+// All the tests ran to make sure Employee Class works. First parameter of test displays what each test does. 
+
 test("Create an instance of Employee", () => {
     const employee = new Employee('Jake', '3', 'email@email.com');
     expect(typeof(employee)).toBe('object');
